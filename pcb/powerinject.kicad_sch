@@ -1439,10 +1439,16 @@
 		)
 	)
 	(junction
-		(at 101.6 76.2)
+		(at 96.52 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f8efb7d-12ae-4655-a410-ddecb583fe4a")
+		(uuid "0c423a2e-b1ac-4dff-8491-d5e0d4086b27")
+	)
+	(junction
+		(at 92.71 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17b31a53-c037-4d87-932b-c20409b66cbd")
 	)
 	(junction
 		(at 120.65 95.25)
@@ -1451,28 +1457,22 @@
 		(uuid "29616352-2ed7-4ebe-8110-a9aafa065aac")
 	)
 	(junction
-		(at 96.52 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "388c7009-4122-4315-91c2-6638525fd247")
-	)
-	(junction
-		(at 92.71 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f6369d1-478f-4104-bffa-2054915b988e")
-	)
-	(junction
 		(at 97.79 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45b89a33-f393-49c7-97fe-a93fad533ddf")
+		(uuid "5b575041-23ac-4307-bdb8-d547f434540e")
 	)
 	(junction
 		(at 73.66 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae440b95-4949-48f1-9932-03961698c4d2")
+	)
+	(junction
+		(at 101.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd451f8a-b448-4840-8f97-297a316b8e4e")
 	)
 	(junction
 		(at 57.15 73.66)
@@ -1510,6 +1510,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08aaf340-bd3c-4d0d-9dc1-07ccf830068c")
+	)
+	(wire
+		(pts
 			(xy 82.55 74.93) (xy 82.55 76.2)
 		)
 		(stroke
@@ -1520,6 +1530,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 39.37) (xy 92.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e39aad7-64ed-43c3-88cf-c1df7307040a")
+	)
+	(wire
+		(pts
 			(xy 96.52 39.37) (xy 97.79 39.37)
 		)
 		(stroke
@@ -1527,16 +1547,6 @@
 			(type default)
 		)
 		(uuid "1b386ed4-382b-4d83-a6e4-908d535c2dfa")
-	)
-	(wire
-		(pts
-			(xy 97.79 39.37) (xy 99.06 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2566926a-7a33-4d06-a680-63d5dae04d41")
 	)
 	(wire
 		(pts
@@ -1557,6 +1567,16 @@
 			(type default)
 		)
 		(uuid "34e9a226-ffc7-4327-ae5e-0521804cf81e")
+	)
+	(wire
+		(pts
+			(xy 96.52 76.2) (xy 97.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36eb9679-0b5f-4944-aa63-39b601d616b6")
 	)
 	(wire
 		(pts
@@ -1590,6 +1610,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 39.37) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa49259-fcea-4eb1-b317-a874f37de29d")
+	)
+	(wire
+		(pts
 			(xy 69.85 20.32) (xy 73.66 20.32)
 		)
 		(stroke
@@ -1600,33 +1630,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 101.6 76.2)
+			(xy 101.6 55.88) (xy 101.6 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73095c80-55ef-407f-af7c-94fbba6533c0")
+		(uuid "6efdca57-5957-4177-8b38-08750f5b477e")
 	)
 	(wire
 		(pts
-			(xy 92.71 39.37) (xy 92.71 58.42)
+			(xy 97.79 39.37) (xy 99.06 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74e3344f-8caa-4445-8d26-1d43425af0e1")
-	)
-	(wire
-		(pts
-			(xy 92.71 58.42) (xy 96.52 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6299af-5595-4af0-8f75-77ec73299600")
+		(uuid "7d71577d-28a9-4d3e-a062-69250c519cbc")
 	)
 	(wire
 		(pts
@@ -1660,6 +1680,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 53.34) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62a7462-785b-41c0-adcd-0d3072add2b0")
+	)
+	(wire
+		(pts
 			(xy 90.17 76.2) (xy 90.17 63.5)
 		)
 		(stroke
@@ -1667,6 +1697,16 @@
 			(type default)
 		)
 		(uuid "aaf6f983-538e-4712-9b14-577c42d1398e")
+	)
+	(wire
+		(pts
+			(xy 97.79 53.34) (xy 96.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b117dc94-7437-4bb1-a9f0-2cac4cc42f41")
 	)
 	(wire
 		(pts
@@ -1690,13 +1730,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 102.87 76.2)
+			(xy 97.79 39.37) (xy 97.79 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3efdec4-d97d-4276-8963-e7073f6dc562")
+		(uuid "cdd052a9-a014-4dd1-8e44-e8cfbb1598f6")
 	)
 	(wire
 		(pts
@@ -1707,26 +1747,6 @@
 			(type default)
 		)
 		(uuid "d6ea700a-4c7c-43b0-8e8b-c1d038f20ec6")
-	)
-	(wire
-		(pts
-			(xy 97.79 39.37) (xy 97.79 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7dc3706-92a4-4da2-b777-66f51edfcdff")
-	)
-	(wire
-		(pts
-			(xy 96.52 76.2) (xy 97.79 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd3237a0-e235-4eba-920c-ac51311f372d")
 	)
 	(wire
 		(pts
@@ -1750,33 +1770,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 50.8) (xy 101.6 50.8)
+			(xy 101.6 76.2) (xy 102.87 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8a258d5-a59c-4da3-8bf5-9b5135a3f19c")
-	)
-	(wire
-		(pts
-			(xy 92.71 39.37) (xy 93.98 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef163bf4-e743-434f-bdcb-a1c3304a093f")
-	)
-	(wire
-		(pts
-			(xy 96.52 58.42) (xy 96.52 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57519b0-ccf2-4172-8ad0-6d5d071288d9")
+		(uuid "e75190d5-9864-41c8-aac4-f21b3e2e80c3")
 	)
 	(wire
 		(pts
@@ -1786,7 +1786,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f952e71d-4637-4b11-b37f-552f7e27efd4")
+		(uuid "ef163bf4-e743-434f-bdcb-a1c3304a093f")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
@@ -1810,7 +1810,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+		(property "Value" "Charger_USB"
 			(at 60.96 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1820,7 +1820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1843,6 +1843,28 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress Link" "https://pt.aliexpress.com/item/1005007419369264.html"
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "US $1.24"
 			(at 60.96 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2140,7 +2162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+		(property "Value" "PC_Usb"
 			(at 115.57 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +2173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 96.52 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2175,6 +2197,17 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress Link" "https://pt.aliexpress.com/item/1005007419369264.html?algo_exp_id=77464d25-abdc-4b96-98f9-d727fe240f77-15&pdp_ext_f={%22order%22%3A%225695%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22}&pdp_npi=6%40dis!USD!2.00!1.47!!!2.00!1.47!%4021030f8317868522676492790e0ed0!12000040675429672!sea!BR!7672224900!ABX!1!0!n_tag%3A-29910%3Bd%3A85bfa09b%3Bm03_new_user%3A-29895%3BpisId%3A5000000210901393&curPageLogUid=zF8SQNXSCq5l&utparam-url=scene%3Asearch|query_from%3A|x_object_id%3A1005007419369264|_p_origin_prod%3A"
+			(at 96.52 24.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2456,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+		(property "Value" "Phone_USB"
 			(at 78.74 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +2467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 97.79 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2458,6 +2491,17 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 97.79 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "US $1.24"
+			(at 97.79 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
