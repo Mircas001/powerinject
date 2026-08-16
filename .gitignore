@@ -29,10 +29,7 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-
+*/pcb/production
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
 
